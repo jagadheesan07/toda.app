@@ -1,0 +1,70 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+body{
+    background-color:#4e4376;
+  margin: 0%;
+  padding: 0%;
+ 
+}
+
+.container{
+    position: absolute;
+    text-align: center;
+    padding: 10% 30%;
+}
+
+.todo
+{  
+    display: flex;
+    margin-top: 8%;
+
+} 
+
+ ul 
+{   
+    list-style-type: none;
+    min-width: 120%;
+   } 
+
+ ul li{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: white;
+    font-size: 110%;
+    border: 2px solid #221627;
+} 
+
+.add{
+    display: flex;  
+}
+.cbtn {
+    margin-left: auto;
+    background-color: green;
+    
+}
+.dbtn {
+    background-color: rgb(216, 24, 11);
+    
+}
+
+.fa-check-circle, 
+.fa-trash-o {
+    pointer-events: none;
+}
+
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+
+
+
+
+
